@@ -1,5 +1,5 @@
-![logo] (![image](https://github.com/SubhanShaikh23/SubhanShaikh23/assets/114649972/ba48dd2d-4ddd-4f47-9169-0598407efb38)
-)
+ ![image](https://github.com/SubhanShaikh23/SubhanShaikh23/blob/main/Blue%20Geometric%20Technology%20LinkedIn%20Banner.png)
+
 <h1 align="center">Hi 👋, I'm subhan shaikh</h1>
 <h3 align="center">A passionate data science student from India</h3>
 
