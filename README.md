@@ -1,3 +1,5 @@
+![logo] (![image](https://github.com/SubhanShaikh23/SubhanShaikh23/assets/114649972/ba48dd2d-4ddd-4f47-9169-0598407efb38)
+)
 <h1 align="center">Hi 👋, I'm subhan shaikh</h1>
 <h3 align="center">A passionate data science student from India</h3>
 
