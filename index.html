@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store - Home</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    
+    <header>
+        <nav>
+            <h1>The Driven</h1>
+            <ul>
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search for products...">
+                    <button onclick="searchProduct()">🔍</button>
+                </div>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="#women">Women</a></li>
+                <li><a href="#kids">Kids</a></li>
+                <li><a href="#beauty">Beauty</a></li>
+                <li><a href="#studio">Studio</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <!-- Carousel Banner Section -->
+<section class="carousel">
+    <div class="carousel-slide active">
+        <img src="/images/hero-banner.avif" alt="Banner 1">
+        <div class="carousel-content">
+            <h2>Winter Collection Sale!</h2>
+            <p>Up to 50% off on all winter wear.</p>
+        </div>
+    </div>
+    <div class="carousel-slide">
+        <img src="/images/banner 2.avif" alt="Banner 2">
+        <div class="carousel-content">
+            <h1>Exclusive Offers</h1>
+            <p>Get the best deals on new arrivals.</p>
+        </div>
+    </div>
+    <!-- Add more carousel slides as needed -->
+
+    <!-- Carousel Controls -->
+    <button class="carousel-control prev" onclick="prevSlide()">❮</button>
+    <button class="carousel-control next" onclick="nextSlide()">❯</button>
+</section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="shop-by-categories">
+        <h2>Shop by Categories</h2>
+        <div class="category-list">
+            <!-- Category 1 -->
+            <div class="category-item">
+                <a href="flipflops.html">
+                    <img src="/images/flipflop.jpeg" alt="Flip Flops">
+                    <p>Flip Flops</p>
+                </a>
+            </div>
+            
+            <!-- Category 2 -->
+            <div class="category-item">
+                <a href="ethnic-wear.html">
+                    <img src="/images/ethnic wear.jpg" alt="Ethnic Wear">
+                    <p>Ethnic Wear</p>
+                </a>
+            </div>
+    
+            <!-- Category 3 -->
+            <div class="category-item">
+                <a href="casual-wear.html">
+                    <img src="/images/casual 2.jpg" alt="Casual Wear">
+                    <p>Casual Wear</p>
+                </a>
+            </div>
+    
+            <!-- Category 4 -->
+            <div class="category-item">
+                <a href="accessories.html">
+                    <img src="/images/acessiories.jpg" alt="Accessories">
+                    <p>Accessories</p>
+                </a>
+            </div>
+    
+            <!-- Category 5 -->
+            <div class="category-item">
+                <a href="footwear.html">
+                    <img src="/images/footwear.jpg" alt="Footwear">
+                    <p>Footwear</p>
+                </a>
+            </div>
+    
+    
+            <!-- Add more categories here -->
+            <!-- Category 6 to Category 33 -->
+    
+        </div>
+    </section>
+
+
+    <!-- Featured Products -->
+    <section id="featured" class="popular-products">
+        <h2>Popular Brands</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <a href="product1.html">
+                    <img src="/images/allen solly.jpeg" alt="Product 1">
+                    <h3>Allen Solly</h3>
+                </a>
+            </div>
+            
+            <div class="product-card">
+                <a href="product2.html">
+                    <img src="/images/zara.jpeg" alt="Product 2">
+                    <h3>Zara</h3>
+                </a>
+            </div>
+    
+            <div class="product-card">
+                <a href="product3.html">
+                    <img src="/images/peterengland.png" alt="Product 3">
+                    <h3>Peter England</h3>
+                </a>
+            </div>
+    
+            <div class="product-card">
+                <a href="product4.html">
+                    <img src="/images/levis.png" alt="Product 4">
+                    <h3>Levis</h3>
+                </a>
+            </div>
+    
+            <div class="product-card">
+                <a href="product5.html">
+                    <img src="/images/boss.png" alt="Product 5">
+                    <h3>Boss</h3>
+                </a>
+            </div>
+                </a>
+                        </div>
+        </div>
+    </section>
+    
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Clothing Store | <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms</a></p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
